@@ -1,1 +1,210 @@
 /* You can add global styles to this file, and also import other style files */
+.f-monospace {
+  font-family: monospace;
+}
+
+.m-container {
+  width: 100%;
+  position: fixed;
+  height: 80%;
+  overflow: scroll;
+  top: 10%;
+  text-align: center;
+  margin: 10%;
+}
+
+.f-50 {
+  font-size: 50px;
+}
+
+.f-40 {
+  font-size: 40px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-10 {
+  font-size: 10px;
+}
+
+.mail-button {
+  color: black;
+  padding: 1.25rem 1.75rem !important;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.mail-button:hover {
+  color: white;
+  background-color: black;
+}
+
+.m-10 {
+  margin: 10%;
+}
+.ml-10 {
+  margin: 10% 20%;
+}
+
+.ml-5per {
+  margin: 5% 20%;
+}
+.m-15 {
+  margin: 15%;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+
+.secondary-color {
+  color: #00000091;
+}
+
+.page-title {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 32px;
+  margin: 10px 0px 40px;
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: black;
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+}
+.page-title::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: black;
+  position: relative;
+  top: -5px;
+  margin-right: 20px;
+}
+
+.account:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* Experience Details Css*/
+
+.tab {
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: flex;
+  background-color: inherit;
+  color: black;
+  background-color: #0000000d;
+  padding: 15px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: black;
+  color: white;
+  border-left: 2px solid white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 20px;
+  padding-top: 15px;
+  width: 70%;
+  text-align: left;
+  border-left: none;
+  height: 300px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-top: 5px;
+  /* color: white; */
+  background-color: white;
+}
+
+.profile-title {
+  display: flex;
+}
+
+.set-item {
+  margin: 10px 0px;
+  font-size: 18px;
+  list-style: none;
+}
+.set-item::before {
+  content: "‣";
+  color: #00000096;
+}
