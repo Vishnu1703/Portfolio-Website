@@ -212,3 +212,7 @@
 .zoomEl:hover {
   zoom: 1.05;
 }
+
+button:focus {
+  outline: none !important;
+}
