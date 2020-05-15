@@ -242,5 +242,14 @@ a:hover {
 }
 
 .contentOverflow::-webkit-scrollbar {
-  display: none;
+  width: 12px;
+}
+.contentOverflow::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.contentOverflow::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
