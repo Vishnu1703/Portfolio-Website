@@ -235,3 +235,12 @@ button:focus {
 a:hover {
   text-decoration: none !important;
 }
+
+.contentOverflow {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+.contentOverflow::-webkit-scrollbar {
+  display: none;
+}
